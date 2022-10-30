@@ -3,22 +3,30 @@ console.log('***** Object Practice *****')
 // Add the required code to complete the tasks below
 
 /* 1. Create an object literal to represent you!
-  - Give the object a 'firstName & (separate) 'lastName' property
-  - Give it a boolean 'hasSiblings' property
-  - Give it  a numeric 'shoeCount' property
-  - Also give it an array 'favThreeFoods'
+  X - Give the object a 'firstName & (separate) 'lastName' property
+  X - Give it a boolean 'hasSiblings' property
+  X - Give it  a numeric 'shoeCount' property
+  X - Also give it an array 'favThreeFoods'
 */
 const me = {
   // TODO - add properties here
+  firstName: 'Roxanne',
+  lastName: 'Niederkorn',
+  hasSiblings: true,
+  shoeCount: 8,
+  favThreeFoods: ['chocolate', 'tamales', 'apple chips']
 };
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
-  - Create a variable called fullName 
-  - Use the firstName & lastName properties of the object you 
+  X - Create a variable called fullName 
+  X - Use the firstName & lastName properties of the object you 
     created above to set its value. 
-  - Console.log fullName
+  X - Console.log fullName
 */
+let fullName = (me.firstName + (' ') + me.lastName)
+
+console.log(fullName);
 
 
 
