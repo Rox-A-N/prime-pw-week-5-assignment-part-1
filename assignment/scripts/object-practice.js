@@ -44,10 +44,11 @@ console.log('My final favorite food is: ' ,me.favThreeFoods[me.favThreeFoods.len
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+
 console.log('I have' , me.shoeCount, 'pairs of shoes.');
 
-//let newShoeCount = (me.shoeCount + 1);    this didn't work the way I hoped after doing the next exercise(*5)
-console.log('I now have', me.shoeCount + 1, 'pairs of shoes.')
+let newShoeCount = (me.shoeCount += 1);    //this didn't work the way I hoped after doing the next exercise(*5)
+console.log('I now have', me.shoeCount, 'pairs of shoes.')
 
 /* 5. Add a new property to an existing object.
   X - Add a 'favoriteColor' to your existing object
